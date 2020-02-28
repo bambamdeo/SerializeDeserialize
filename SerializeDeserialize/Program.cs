@@ -24,7 +24,7 @@ namespace SerializeDeserialize
             StudentList studentss = sSerialize.Deserialize<StudentList>(strsInput);
             strOutput = sSerialize.Serialize<Student>(student);
 
-            Console.WriteLine(student.StudentName);
+            Console.WriteLine(student.Name);
 
             Console.WriteLine(strOutput);
 
@@ -34,13 +34,13 @@ namespace SerializeDeserialize
             #region Serialize Object to xml
             StudentList studs = new StudentList();
             studs.Students = new List<Student>();
-            Student student1 = new Student { Course = "MCA", StudentAge = 21, StudentName = "Deo", StudentNumber = 1, StudentSurname = "Mr" };
+            Student student1 = new Student { Course = "MCA", Age = 21, Name = "Deo", ID = 1, Surname = "Mr" };
             studs.Students.Add(student1);
-            student1 = new Student { Course = "BTech", StudentAge = 21, StudentName = "Deo1", StudentNumber = 1, StudentSurname = "Mr" };
+            student1 = new Student { Course = "BTech", Age = 21, Name = "Deo1", ID = 1, Surname = "Mr" };
             studs.Students.Add(student1);
-            student1 = new Student { Course = "BE", StudentAge = 31, StudentName = "Deo3", StudentNumber = 1, StudentSurname = "Mr" };
+            student1 = new Student { Course = "BE", Age = 31, Name = "Deo3", ID = 1, Surname = "Mr" };
             studs.Students.Add(student1);
-            student1 = new Student { Course = "BA", StudentAge = 41, StudentName = "Deo2", StudentNumber = 1, StudentSurname = "Mr" };
+            student1 = new Student { Course = "BA", Age = 41, Name = "Deo2", ID = 1, Surname = "Mr" };
             studs.Students.Add(student1);
 
             var Output = sSerialize.Serialize<StudentList>(studs);
@@ -55,10 +55,11 @@ namespace SerializeDeserialize
             var json2Obj = JsonConvert.DeserializeObject(obj2Json);
 
             #endregion
-
-
+            
             Console.ReadKey();
+
         }
+
     }
 
     public class StudentList
@@ -68,10 +69,10 @@ namespace SerializeDeserialize
 
     public class Student
     {
-        public int StudentNumber { get; set; }
-        public string StudentName { get; set; }
-        public string StudentSurname { get; set; }
-        public int StudentAge { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Age { get; set; }
         public string Course { get; set; }
 
     }

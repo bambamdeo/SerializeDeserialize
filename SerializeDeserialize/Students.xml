@@ -1,24 +1,24 @@
 ﻿<StudentList>
   <Students>
     <Student>
-      <StudentNumber>745</StudentNumber>
-      <StudentName>Rames</StudentName>
-      <StudentSurname>Noyr</StudentSurname>
-      <StudentAge>40</StudentAge>
+      <ID>745</ID>
+      <Name>Rames</Name>
+      <Surname>Noyr</Surname>
+      <Age>40</Age>
       <Course>Computer Application</Course>
     </Student>
     <Student>
-      <StudentNumber>746</StudentNumber>
-      <StudentName>Ramesh2</StudentName>
-      <StudentSurname>Roy</StudentSurname>
-      <StudentAge>42</StudentAge>
+      <ID>746</ID>
+      <Name>Ramesh2</Name>
+      <Surname>Roy</Surname>
+      <Age>42</Age>
       <Course>Computer Application</Course>
     </Student>
     <Student>
-      <StudentNumber>747</StudentNumber>
-      <StudentName>Ramesh</StudentName>
-      <StudentSurname>Deo</StudentSurname>
-      <StudentAge>45</StudentAge>
+      <ID>747</ID>
+      <Name>Ramesh</Name>
+      <Surname>Deo</Surname>
+      <Age>45</Age>
       <Course>Computer Application</Course>
     </Student>
   </Students>
@@ -28,24 +28,24 @@
 <StudentList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Students>
     <Student>
-      <StudentNumber>745</StudentNumber>
-      <StudentName>Rames</StudentName>
-      <StudentSurname>Noyr</StudentSurname>
-      <StudentAge>40</StudentAge>
+      <ID>745</ID>
+      <Name>Rames</Name>
+      <Surname>Noyr</Surname>
+      <Age>40</Age>
       <Course>Computer Application</Course>
     </Student>
     <Student>
-      <StudentNumber>746</StudentNumber>
-      <StudentName>Rames2</StudentName>
-      <StudentSurname>Noyr</StudentSurname>
-      <StudentAge>42</StudentAge>
+      <ID>746</ID>
+      <Name>Rames2</Name>
+      <Surname>Noyr</Surname>
+      <Age>42</Age>
       <Course>Computer Application</Course>
     </Student>
     <Student>
-      <StudentNumber>747</StudentNumber>
-      <StudentName>Rames3</StudentName>
-      <StudentSurname>du P1reez</StudentSurname>
-      <StudentAge>45</StudentAge>
+      <ID>747</ID>
+      <Name>Rames3</Name>
+      <Surname>du P1reez</Surname>
+      <Age>45</Age>
       <Course>Computer Application</Course>
     </Student>
   </Students>
