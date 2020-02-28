@@ -1,0 +1,53 @@
+﻿<StudentList>
+  <Students>
+    <Student>
+      <StudentNumber>745</StudentNumber>
+      <StudentName>Rames</StudentName>
+      <StudentSurname>Noyr</StudentSurname>
+      <StudentAge>40</StudentAge>
+      <Course>Computer Application</Course>
+    </Student>
+    <Student>
+      <StudentNumber>746</StudentNumber>
+      <StudentName>Ramesh2</StudentName>
+      <StudentSurname>Roy</StudentSurname>
+      <StudentAge>42</StudentAge>
+      <Course>Computer Application</Course>
+    </Student>
+    <Student>
+      <StudentNumber>747</StudentNumber>
+      <StudentName>Ramesh</StudentName>
+      <StudentSurname>Deo</StudentSurname>
+      <StudentAge>45</StudentAge>
+      <Course>Computer Application</Course>
+    </Student>
+  </Students>
+</StudentList>
+<!--
+<?xml version="1.0" encoding="utf-16"?>
+<StudentList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Students>
+    <Student>
+      <StudentNumber>745</StudentNumber>
+      <StudentName>Rames</StudentName>
+      <StudentSurname>Noyr</StudentSurname>
+      <StudentAge>40</StudentAge>
+      <Course>Computer Application</Course>
+    </Student>
+    <Student>
+      <StudentNumber>746</StudentNumber>
+      <StudentName>Rames2</StudentName>
+      <StudentSurname>Noyr</StudentSurname>
+      <StudentAge>42</StudentAge>
+      <Course>Computer Application</Course>
+    </Student>
+    <Student>
+      <StudentNumber>747</StudentNumber>
+      <StudentName>Rames3</StudentName>
+      <StudentSurname>du P1reez</StudentSurname>
+      <StudentAge>45</StudentAge>
+      <Course>Computer Application</Course>
+    </Student>
+  </Students>
+</StudentList>
+-->

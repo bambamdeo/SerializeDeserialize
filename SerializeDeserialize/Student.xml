@@ -1,0 +1,7 @@
+﻿<Student>
+  <StudentNumber>45</StudentNumber>
+  <StudentName>Mahes</StudentName>
+  <StudentSurname>Mr</StudentSurname>
+  <StudentAge>40</StudentAge>
+  <Course>Computer Science</Course>
+</Student>
