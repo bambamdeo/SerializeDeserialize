@@ -1,0 +1,25 @@
+﻿<StudentList>
+  <Students>
+    <Student>
+      <ID>745</ID>
+      <Name>Rames</Name>
+      <Surname>Noyr</Surname>
+      <Age>40</Age>
+      <Course>Computer Application</Course>
+    </Student>
+    <Student>
+      <ID>746</ID>
+      <Name>Ramesh2</Name>
+      <Surname>Roy</Surname>
+      <Age>42</Age>
+      <Course>Computer Application</Course>
+    </Student>
+    <Student>
+      <ID>747</ID>
+      <Name>Ramesh</Name>
+      <Surname>Deo</Surname>
+      <Age>45</Age>
+      <Course>Computer Application</Course>
+    </Student>
+  </Students>
+</StudentList>
